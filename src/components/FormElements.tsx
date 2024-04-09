@@ -9,7 +9,7 @@ export type FormElement = {
   construct: (id: string) => FormElementInstance
 
   designerBtnElement: {
-    icon: React.ReactElement
+    icon: React.ElementType
     label: string
   }
 
